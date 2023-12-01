@@ -26,7 +26,10 @@
                 },
                 "ruff.lint.args": [
                     "--select=E,W,F,B,I,N,A,UP,C4,PL,PD,NPY,C90,COM"
-                ]
+                ],
+                "dotfiles.installCommand": "~/dotfiles/install.sh",
+                "dotfiles.repository": "https://github.com/zetlov/dotfiles.git",
+                "dotfiles.targetPath": "~/dotfiles"
             },
             "extensions": [
                 "ms-python.python",
