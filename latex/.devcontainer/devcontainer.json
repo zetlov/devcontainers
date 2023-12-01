@@ -163,5 +163,6 @@
             "version": "latest",
             "ppa": true
         }
-    }
+    },
+    "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh"
 }
