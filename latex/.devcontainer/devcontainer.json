@@ -151,7 +151,7 @@
                             "platexmk"
                         ]
                     }
-                ]
+        ]
             },
             "extensions": [
                 "james-yu.latex-workshop"
