@@ -5,6 +5,9 @@
     "customizations": {
         "vscode": {
             "settings": {
+                "dotfiles.installCommand": "~/dotfiles/install.sh",
+                "dotfiles.repository": "https://github.com/zetlov/dotfiles_devcontainer.git",
+                "dotfiles.targetPath": "~/dotfiles",
                 "[tex]": {
                     "editor.suggest.snippetsPreventQuickSuggestions": false,
                     "editor.tabSize": 2
