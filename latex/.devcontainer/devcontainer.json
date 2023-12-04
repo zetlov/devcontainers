@@ -90,7 +90,7 @@
                     },
                     {
                         "name": "lualatexmk",
-                        "command": "latexmk",
+                        "command": "/usr/local/texlive/2023/bin/x86_64-linux/latexmk",
                         "args": [
                             "-synctex=1",
                             "-interaction=nonstopmode",

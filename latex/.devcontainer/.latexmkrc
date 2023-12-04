@@ -1,3 +1,5 @@
+#!/usr/bin/env perl
+
 # ordinary latex
 $latex = 'uplatex %O -kanji=utf8 -no-guess-input-enc -synctex=1 -interaction=nonstopmode %S';
 # for pdfLaTeX

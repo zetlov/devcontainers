@@ -5,3 +5,4 @@ collection-latex 1
 collection-latexrecommended 1
 collection-mathscience 1
 collection-luatex 1
+collection-formatsextra 1
