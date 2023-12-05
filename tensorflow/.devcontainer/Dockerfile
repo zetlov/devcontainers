@@ -1,4 +1,6 @@
-FROM tensorflow/tensorflow:latest-gpu-py3
+FROM nvcr.io/nvidia/tensorflow:23.11-tf2-py3
 
-RUN useradd -m vscode
-USER vscode
+# ARG USERNAME=vscode
+# ARG USER_UID=1000
+# ARG USER_GID=${USER_UID}
+RUN useradd -m -g sudo vscode

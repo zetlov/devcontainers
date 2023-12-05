@@ -6,7 +6,7 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "python.formatting.provider": none,
+                // "python.formatting.provider": none,
                 "python.linting.pylintEnabled": false,
                 "python.linting.lintOnSave": true,
                 "python.defaultInterpreterPath": "/opt/conda/bin/python",
@@ -53,5 +53,6 @@
             "variant": "Mambaforge"
         }
     },
+    "runArgs": ["--gpus", "all"],
     "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh"
 }
