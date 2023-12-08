@@ -47,12 +47,12 @@
             "version": "latest",
             "ppa": true
         },
-        // mambaforge
-        "ghcr.io/rocker-org/devcontainer-features/miniforge:latest": {
-            "version": "latest",
-            "variant": "Mambaforge"
-        }
+        // // mambaforge
+        // "ghcr.io/rocker-org/devcontainer-features/miniforge:latest": {
+        //     "version": "latest",
+        //     "variant": "Mambaforge"
+        // }
     },
     "runArgs": ["--gpus", "all"],
-    "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh"
+    // "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh"
 }
