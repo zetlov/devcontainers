@@ -161,11 +161,11 @@
             ]
         }
     },
-    "features": {
-        "ghcr.io/devcontainers/features/git:latest": {
-            "version": "latest",
-            "ppa": true
-        }
-    },
-    "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh"
+    // "features": {
+    //     "ghcr.io/devcontainers/features/git:latest": {
+    //         "version": "latest",
+    //         "ppa": true
+    //     }
+    // }
+    // "postCreateCommand": "/bin/bash ${containerWorkspaceFolder}/.devcontainer/setup.sh"
 }

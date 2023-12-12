@@ -1,0 +1,24 @@
+{
+    "name": "ubuntu",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "init": true,
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "dotfiles.repository": "https://github.com/zetlov/dotfiles_devcontainer.git",
+                "dotfiles.targetPath": "~/dotfiles",
+                "dotfiles.installCommand": "~/dotfiles/install.sh",
+                "workbench.colorTheme": "Monokai",
+                "workbench.iconTheme": "material-icon-theme"
+            },
+            "extensions": [
+                "dendron.dendron",
+                "dendron.dendron-markdown-shortcuts",
+                "dendron.dendron-paste-image",
+                "oderwat.indent-rainbow"
+            ]
+        }
+    }
+}
